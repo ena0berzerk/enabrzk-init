@@ -1,14 +1,24 @@
 {
   "name": "enabrzk-init",
   "version": "1.0.0",
-  "description": "",
+  "description": "Boilerplate for projects on pure JS",
   "main": "script.js",
   "scripts": {
     "start": "webpack serve --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ena0berzerk/enabrzk-init.git"
+  },
+  "keywords": [
+    "enaberzerk",
+    "enaberzerk-init",
+    "ena",
+    "ena-init",
+    "enabrzrk-init"
+  ],
+  "author": "Nikita Enduraev",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.8.1",
