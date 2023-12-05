@@ -36,16 +36,7 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: [
-              [
-                '@babel/preset-env',
-                {
-                  targets: {
-                    browsers: ['>0.25%', 'not ie 11', 'not op_mini all']
-                  }
-                }
-              ]
-            ]
+            presets: [['@babel/preset-env', { targets: 'defaults' }]]
           }
         }
       }
