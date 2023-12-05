@@ -8,6 +8,7 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
+  "ignorePatterns": ["*.test.js"],
   "rules": {
     "semi": "error",
     "no-var": "error",
