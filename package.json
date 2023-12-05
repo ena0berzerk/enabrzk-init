@@ -7,19 +7,10 @@
     "start": "webpack serve --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "test": "jest",
-    "test-watch": "jest --watch script.js"
+    "test-watch": "jest --watch script.js",
+    "scripts": "git subtree push --prefix dist origin gh-pages"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ena0berzerk/enabrzk-init.git"
-  },
-  "keywords": [
-    "enaberzerk",
-    "enaberzerk-init",
-    "ena",
-    "ena-init",
-    "enabrzrk-init"
-  ],
+  "keywords": [],
   "author": "Nikita Enduraev",
   "license": "ISC",
   "devDependencies": {
